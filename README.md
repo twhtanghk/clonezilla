@@ -11,7 +11,7 @@ docker-compose -f clonezilla/docker-compose.yml up -d
 
 Start clonezilla
 ================
-Default image path ./data:/home/partimg
+Default image path ./data:/home/partimag
 ```
 docker exec -it clonezilla_clone_1 clonezilla
 ```

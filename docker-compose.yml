@@ -5,6 +5,6 @@ services:
     privileged: true
     volumes:
       - /dev:/dev
-      - ./data:/home/partimg
+      - ./data:/home/partimag
     environment:
       - TERM=xterm
