@@ -1,0 +1,9 @@
+version: '2'
+services:
+  clone:
+    image: twhtanghk/clonezilla
+    privileged: true
+    volumes:
+      - /dev:/dev
+    environment:
+      - TERM=xterm
