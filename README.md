@@ -6,11 +6,12 @@ Up container
 ============
 ```
 git clone https://github.com/twhtanghk/clonezilla
-docker-compose -f cloneaill/docker-compose.yml up -d
+docker-compose -f clonezilla/docker-compose.yml up -d
 ```
 
 Start clonezilla
 ================
+Default image path ./data:/home/partimg
 ```
 docker exec -it clonezilla_clone_1 clonezilla
 ```
